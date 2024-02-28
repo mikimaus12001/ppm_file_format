@@ -93,6 +93,7 @@ int main()
     int h = img.getHeight();
 
     // Allocate memory for Image
+    // usigned char** Data;
     img.Data = img.Allocate2DArray(img.Data, img.getWidth(), img.getHeight());
 
     // Use img.Data
